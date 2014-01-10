@@ -54,20 +54,4 @@ public class BinaryTreePreorderTraversal
 
         return result;
     }
-
-    static void outPutList(ArrayList l)
-    {
-        for (Object o : l)
-        {
-            System.out.println(o);
-        }
-    }
-
-    public static void main(String[] args)
-    {
-        TreeNode t = new TreeNode(1);
-
-        ArrayList<Integer> a = new BinaryTreePreorderTraversal().preorderTraversal(t);
-        outPutList(a);
-    }
 }
